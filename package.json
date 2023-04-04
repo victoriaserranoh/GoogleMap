@@ -1,22 +1,37 @@
 {
-    "name": "google-maps-intro",
-    "private": true,
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start",
-      "lint": "next lint"
-    },
-    "dependencies": {
-      "@reach/combobox": "^0.16.5",
-      "@react-google-maps/api": "^2.7.0",
-      "next": "12.0.10",
-      "react": "17.0.2",
-      "react-dom": "17.0.2",
-      "use-places-autocomplete": "^1.11.0"
-    },
-    "devDependencies": {
-      "eslint": "8.8.0",
-      "eslint-config-next": "12.0.10"
-    }
+  "name": "google-maps-intro",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "verify": "tsc --noEmit",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@reach/combobox": "^0.16.5",
+    "@react-google-maps/api": "^2.7.0",
+    "jest": "^29.5.0",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "^5.0.1",
+    "use-places-autocomplete": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
+}
